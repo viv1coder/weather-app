@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffe142;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+#cityname{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+#date {
+    text-align: center;
+    width: 140px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    background-color: black;
+    color: #ffe142;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#temp{
+    font-size:20vh;
+    margin-top: 13vh;
+    height: 17vh;
+    width: 40vh;
+    padding-top: 18vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+#summary{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    margin: auto;
+    margin-top: 8vh;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    gap: 6vh;
+}
+
+
+#infobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8vh;
+    height: 16vh;
+    width: 41vh;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: #ffe142;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;}
+
+button{
+    background-color: black;
+    border: none;
+    color: #ffe142;
+    padding: 20px;
+    width: 43vh;
+    border-radius: 1000px;
+}
+
+.error{
+    font-size: 4vh;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    visibility: hidden;
+}
+
+
+
+
+
+
